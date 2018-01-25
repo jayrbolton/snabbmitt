@@ -2,7 +2,7 @@
   "name": "snabbmitt",
   "version": "0.0.16",
   "description": "Stateful components in Snabbdom using Mitt",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
     "test": "eslint .",
     "start": "budo example/index.js --live --open"
@@ -26,8 +26,8 @@
     }
   },
   "dependencies": {
-    "mitt": "^1.1.0",
-    "snabbdom": "^0.6.6"
+    "mitt": "^1.1.3",
+    "snabbdom": "^0.7.1"
   },
   "devDependencies": {
     "budo": "^9.4.7",
