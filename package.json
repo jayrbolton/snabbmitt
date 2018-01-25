@@ -4,6 +4,7 @@
   "description": "Stateful components in Snabbdom using Mitt",
   "main": "build.js",
   "scripts": {
+    "build": "babel index.js > build.js",
     "test": "eslint .",
     "start": "budo example/index.js --live --open"
   },
@@ -30,6 +31,8 @@
     "snabbdom": "^0.7.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "budo": "^9.4.7",
     "eslint": "^3.17.1",
     "eslint-config-postcss": "^2.0.2"
