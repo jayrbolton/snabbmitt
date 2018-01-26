@@ -80,4 +80,3 @@ exports.component = function (factory) {
 };
 
 exports.snabbmitt = snabbmitt;
-

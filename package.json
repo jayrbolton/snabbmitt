@@ -1,10 +1,10 @@
 {
   "name": "snabbmitt",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Stateful components in Snabbdom using Mitt",
-  "main": "build.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel index.js > build.js",
+    "build": "babel src --out-dir dist",
     "test": "eslint .",
     "start": "budo example/index.js --live --open"
   },
